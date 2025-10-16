@@ -2,5 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+<<<<<<< HEAD
 .vs
 out
+=======
+*.vs
+*.out
+>>>>>>> 80061b5aecf0aabadc50c1493098173342820f3d
