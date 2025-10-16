@@ -2,7 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/CV4/Cviceni4.1/.vs
-/CV4/.vs
-/CV4/CviceniORockach/.vs
-/CV4/ROCK2/.vs
+.vs
+out
