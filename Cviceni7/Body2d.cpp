@@ -28,14 +28,14 @@ int indexNejblizsi(int velikost, int body[][2], int referencniX, int referencniY
 }
 
 double prumernaVzdalenost(int velikost, int body[][2], int referencniX, int referencniY) {
-    int Delka;
-    for (int i = 1; i < velikost; i++) {
+    double Delka =0.0;
+    for (int i = 0; i < velikost; i++) {
         
         double localDelka = sqrt(
             pow(body[i][0] - referencniX, 2) +
             pow(body[i][1] - referencniY, 2)
         );
-        Delka + localDelka;
+        Delka += localDelka;
     }
 
     double prumer = Delka / velikost;

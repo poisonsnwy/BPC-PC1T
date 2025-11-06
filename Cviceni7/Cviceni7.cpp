@@ -26,7 +26,7 @@ int main()
         index, poleBodu[index][0], poleBodu[index][1]);
 
     double prumer1 = prumernaVzdalenost(POCET_BODU, poleBodu,referencniX,referencniY);
-    printf("Prumerna delka: %d \n",
+    printf("Prumerna delka: %f \n",
         prumer1);
         
     return 0;
