@@ -9,21 +9,23 @@ using namespace std;
 int main()
 {
 	
-	printf("If you want to get a summ press 1, if you want to get a vector product press 2.");
+	printf("1-5. different operace");
 	int Pass;
 	scanf_s("%d",&Pass);
-
+	struct vector3d v = { 0, 0, 0 };
 
 	printf("Write down data of the first vector (a b c)");
 	int x1, y1, z1;
 	scanf_s("%d" "%d" "%d", &x1, &y1, &z1);
 	struct vector3d u = { x1, y1, z1 };
 
+	if (Pass != 4){
 	printf("Write down data of the second vector (a b c)");
 	int x2, y2, z2;
 	scanf_s("%d" "%d" "%d", &x2, &y2, &z2);
 	struct vector3d v = { x2, y2, z2 };
-
+	}
+	
 
 	struct vector3d r = { 0,0,0 };
 	r = operace(u, v, (enum typOperace)Pass);
