@@ -1,0 +1,3 @@
+Letters: 72
+Digits: 7
+Hledany znak: 3
